@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url(fonte/Orbitron-VariableFont_wght.ttf);
+}
+:root {
+
+    --Azul-gametiz: #192773 ;
+
+    --Ciano-gametiz: #439BE3; 
+}
+
+/* Reset CSS */
+* {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+    .container-grid-banner{
+        color: white;
+        font-family: "Orbitron";
+    }
+
+header{
+    height: 165px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image:url(img/img.gametiz\ fundo\ azul.jpg);
+    height: 800px;
+
+
+
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "ORBITRON";
+    background-color:white;
+    
+
+
+    
+}
+
+.menu a {
+text-decoration: none;
+  color:black
+  font-size: 1.2em;
+
+  }
+
+
+.banner{
+font-size: "Orbiton";
+font-size: 50px;
+}
+    
+
+.fundo{
+    margin-left: 35%;}
+
