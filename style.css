@@ -1,12 +1,16 @@
 @font-face {
     font-family: "Orbitron";
     src: url(fonte/Orbitron-VariableFont_wght.ttf);
+
+    font-family: "Teko";
+    src: url(fonte/Teko-VariableFont_wght.ttf);
 }
+
 :root {
 
-    --Azul-gametiz: #192773 ;
+    --Azul-gametiz: #192773;
 
-    --Ciano-gametiz: #439BE3; 
+    --Ciano-gametiz: #439BE3;
 }
 
 /* Reset CSS */
@@ -15,18 +19,19 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
-    .container-grid-banner{
-        color: white;
-        font-family: "Orbitron";
-    }
+.container-grid-banner {
+    color: white;
+    font-family: "Orbitron";
+    color: white;
 
-header{
+}
+
+header {
     height: 165px;
 }
+
 
 .banner {
     display: flex;
@@ -34,42 +39,140 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    background-image:url(img/img.gametiz\ fundo\ azul.jpg);
+    background-image: url(img/img.gametiz\ fundo\ azul.jpg);
     height: 800px;
-
-
 
 }
 
 .menu {
     height: 100%;
     display: flex;
-    
+
     justify-content: space-between;
     align-items: center;
 
     font-family: "ORBITRON";
-    background-color:white;
-    
 
-
-    
+    background-color: white;
 }
 
 .menu a {
-text-decoration: none;
-  color:black
-  font-size: 1.2em;
-
-  }
-
-
-.banner{
-font-size: "Orbiton";
-font-size: 50px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--Azul-gametiz);
 }
+
+
+.banner {
+    font-size: "Orbiton";
+    font-size: 50px;
+}
+
+
+.fundo {
+    margin-left: 35%;
+}
+
+#sobre {
+    margin-top: 50px;
+    
+}
+
+#sobre h2 {
+    font-family: "Orbitron";
+    font-size: 40px;
+    
+    display: flex;
+    justify-content: center;
+    color: #192773;
+
+}
+
+#sobre p {
+    font-family: "Teko";
+    text-align:center;
+    font-size: 25px;
+    padding: 20px 25%;
     
 
-.fundo{
-    margin-left: 35%;}
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.container-grid-cases{
+    margin-top: 50px;
+}
+
+.container-grid-cases h2 {
+    font-family: "Orbitron";
+    font-size: 40px;
+    
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #192773;
+    
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    display: grid;
+    
+    
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px 
+  
+}
+
+
+
+h2{
+    font-family: "Orbitron";
+    text-align: center;
+    margin-top:50px ;
+    font-size: 40px;
+    color: #192773;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+
+.pessoas{
+    background-image: url(./img/feedbacks.avif);
+    height: 60vh;
+    margin: 40px 0;
+}
+.secao-card{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+    text-align:left;
+    font-family: "Teko";
+    
+}
+
+
+    
+    
 
