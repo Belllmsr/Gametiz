@@ -4,6 +4,7 @@
 
     font-family: "Teko";
     src: url(fonte/Teko-VariableFont_wght.ttf);
+
 }
 
 :root {
@@ -75,13 +76,13 @@ header {
 
 #sobre {
     margin-top: 50px;
-    
+
 }
 
 #sobre h2 {
     font-family: "Orbitron";
     font-size: 40px;
-    
+
     display: flex;
     justify-content: center;
     color: #192773;
@@ -90,29 +91,41 @@ header {
 
 #sobre p {
     font-family: "Teko";
-    text-align:center;
+    text-align: center;
     font-size: 25px;
     padding: 20px 25%;
-    
+
 
     display: flex;
     justify-content: center;
     color: black;
 }
 
-.container-grid-cases{
+.container-grid-cases {
     margin-top: 50px;
 }
 
 .container-grid-cases h2 {
     font-family: "Orbitron";
     font-size: 40px;
-    
+
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     color: #192773;
-    
+
+}
+
+.card button {
+    font-size: 15px;
+    font-family: "Arial";
+    font-style: Black;
+
+    background-color: #192773;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
 }
 
 .container-cards {
@@ -126,10 +139,10 @@ header {
     height: 400px;
     width: 300px;
     display: grid;
-    
-    
+
+
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 
     padding-bottom: 30px;
@@ -138,41 +151,92 @@ header {
     border-radius: 30px;
 
     background-color: white;
-    box-shadow: 0px 0px 3px 0px 
-  
+    box-shadow: 0px 0px 3px 0px
 }
 
 
 
-h2{
+h2 {
     font-family: "Orbitron";
     text-align: center;
-    margin-top:50px ;
+    margin-top: 50px;
     font-size: 40px;
     color: #192773;
     flex-direction: column;
-    
+
     justify-content: center;
 }
 
 
-.pessoas{
-    background-image: url(./img/feedbacks.avif);
-    height: 60vh;
+.pessoas {
+    background-image: url(img/pessoas\ feliz.png);
+    height: 25vh;
     margin: 40px 0;
 }
-.secao-card{
-    
+
+.secao-card {
+
     display: flex;
     justify-content: space-between;
     gap: 80px;
 
-    text-align:left;
-    font-family: "Teko";
-    
+    text-align: center;
+
 }
 
+.agendar {
+    text-align: center;
+    background-color: #192773;
+}
 
-    
-    
+.nome {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Orbitron";
+    font-style: var(--Azul-gametiz);
+}
 
+.telefone {
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: var(--Azul-gametiz);
+}
+
+.email {
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: var(--Azul-gametiz);
+}
+
+.descreva {
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: var(--Azul-gametiz);
+
+
+}
+
+button {
+    background-color: #192773;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+
+}
+
+.formulario {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 80px;
+    box-shadow: 5px 5px 10px 0px rgba(88, 10, 191, 0.5);
+}
