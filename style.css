@@ -159,7 +159,8 @@ header {
 h2 {
     font-family: "Orbitron";
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin: 60px;
     font-size: 40px;
     color: #192773;
     flex-direction: column;
@@ -184,35 +185,53 @@ h2 {
 
 }
 
-.agendar {
+.agendamento {
+
     text-align: center;
+    
     background-color: #192773;
+    
 }
+    
 
-.nome {
-    text-transform: uppercase;
+
+.nome label {
+    
     text-align: center;
     font-family: "Orbitron";
+    display: flex;
+    justify-content: center;
     font-style: var(--Azul-gametiz);
+
 }
 
-.telefone {
+
+
+
+.telefone label{
     text-align: center;
     font-family: "Orbitron";
+    display: flex;
+    justify-content: center;
     font-size: var(--Azul-gametiz);
 }
 
-.email {
+.email label {
     text-align: center;
     font-family: "Orbitron";
+    display: flex;
+    justify-content: center;
     font-size: var(--Azul-gametiz);
 }
 
-.descreva {
+.descreva label {
     text-align: center;
     font-family: "Orbitron";
-    font-size: var(--Azul-gametiz);
-
+    display: flex;
+    justify-content: center;
+    display:flex
+    
+    
 
 }
 
@@ -238,5 +257,39 @@ button {
     align-items: center;
 
     border-radius: 80px;
-    box-shadow: 5px 5px 10px 0px rgba(88, 10, 191, 0.5);
+    box-shadow: 5px 5px 10px 0px rgba(25 , 39 , 115);
 }
+
+.formulario input{
+    font-family:"Arial" ;
+    font-size: 17px ;
+    
+    border-radius: 20px;
+    border-color: #439BE3;
+    column-rule-color: #439BE3;
+
+    text-align:center;
+    margin: 10px;
+    margin-top: 10px;
+    }
+
+.formulario label{
+    color: #192773;
+}
+
+button {
+    
+    margin-top: 100px;
+}
+
+.planos-valores{
+    background-image: url(img/264881-guest-post-o-que-e-gamificacao-e-como-aplicar-na-sua-empresa\ 1.png);
+    height: 25vh;
+    margin: 50px 0;
+
+}
+ .card p {
+    font-family:"Teko";
+    font-size: 20px;
+    flex-direction: column;
+ }
