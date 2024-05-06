@@ -188,15 +188,15 @@ h2 {
 .agendamento {
 
     text-align: center;
-    
+
     background-color: #192773;
-    
+
 }
-    
+
 
 
 .nome label {
-    
+
     text-align: center;
     font-family: "Orbitron";
     display: flex;
@@ -208,7 +208,7 @@ h2 {
 
 
 
-.telefone label{
+.telefone label {
     text-align: center;
     font-family: "Orbitron";
     display: flex;
@@ -229,10 +229,7 @@ h2 {
     font-family: "Orbitron";
     display: flex;
     justify-content: center;
-    display:flex
-    
-    
-
+    display: flex
 }
 
 button {
@@ -243,6 +240,7 @@ button {
     padding: 10px;
     border-radius: 50px;
     text-transform: uppercase;
+    margin-top: 10px;
 
 }
 
@@ -257,39 +255,55 @@ button {
     align-items: center;
 
     border-radius: 80px;
-    box-shadow: 5px 5px 10px 0px rgba(25 , 39 , 115);
+    box-shadow: 5px 5px 10px 0px rgba(25, 39, 115);
 }
 
-.formulario input{
-    font-family:"Arial" ;
-    font-size: 17px ;
-    
+.formulario input {
+    font-family: "Arial";
+    font-size: 17px;
+
     border-radius: 20px;
     border-color: #439BE3;
     column-rule-color: #439BE3;
 
-    text-align:center;
+    text-align: center;
     margin: 10px;
     margin-top: 10px;
-    }
+}
 
-.formulario label{
+.formulario label {
     color: #192773;
 }
 
-button {
-    
-    margin-top: 100px;
-}
-
-.planos-valores{
+.planos-valores {
     background-image: url(img/264881-guest-post-o-que-e-gamificacao-e-como-aplicar-na-sua-empresa\ 1.png);
     height: 25vh;
     margin: 50px 0;
 
 }
- .card p {
-    font-family:"Teko";
+
+.card p {
+    font-family: "Teko";
     font-size: 20px;
     flex-direction: column;
- }
+}
+
+
+
+.app-gametiz {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.app-style {
+    display: flex;
+}
+
+.duvidas{
+    background-image: url(img/Dojo-2.png);
+    height: 35vh;
+    margin: 50px 0;
+}
