@@ -199,6 +199,9 @@ h2 {
 
     text-align: center;
     font-family: "Orbitron";
+    width: 10px;
+    height: 20px;
+    max-width: 10px;
     display: flex;
     justify-content: center;
     font-style: var(--Azul-gametiz);
@@ -229,7 +232,7 @@ h2 {
     font-family: "Orbitron";
     display: flex;
     justify-content: center;
-    display: flex
+font-size: var(--Azul-gametiz);
 }
 
 button {
@@ -260,8 +263,9 @@ button {
 
 .formulario input {
     font-family: "Arial";
-    font-size: 17px;
+    font-size: 15px;
 
+    
     border-radius: 20px;
     border-color: #439BE3;
     column-rule-color: #439BE3;
@@ -280,6 +284,11 @@ button {
     height: 25vh;
     margin: 50px 0;
 
+
+}
+.button-planos{
+    justify-content: center;
+    align-items: center;
 }
 
 .card p {
@@ -339,7 +348,7 @@ button {
     justify-items: left;
     display: flex;
     height: 200px;
-    height: 1500px;
+    
 }
 
 .card-primeiro {
@@ -411,8 +420,8 @@ button {
 
 .contato{
     background-image: url(img/Group\ 15.png);
-    height: 35vh;
-    margin: 50px 0;
+    height: 60vh;
+    margin: 10x 0;
 
     display: flex;
     align-items: center;
@@ -423,10 +432,15 @@ button {
 }
 
 .google{
-    margin-top: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0px;
+    
    
 
+}
+
+.apple{
+    margin: 0px;
+    
+    align-items: left;
+    justify-content: left;
 }
