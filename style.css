@@ -22,6 +22,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 .container-grid-banner {
     color: white;
     font-family: "Orbitron";
@@ -121,6 +124,11 @@ header {
     font-family: "Arial";
     font-style: Black;
 
+    margin: 0px;
+    margin-bottom: 80px;
+    align-items: center;
+    display: inline;
+
     background-color: #192773;
     color: white;
     padding: 10px;
@@ -197,13 +205,12 @@ h2 {
 
 .nome label {
 
-    text-align: center;
-    font-family: "Orbitron";
-    width: 10px;
-    height: 20px;
-    max-width: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Arial";
+    
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-style: var(--Azul-gametiz);
 
 }
@@ -212,43 +219,47 @@ h2 {
 
 
 .telefone label {
-    text-align: center;
-    font-family: "Orbitron";
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Arial";
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: var(--Azul-gametiz);
 }
 
 .email label {
-    text-align: center;
-    font-family: "Orbitron";
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Arial";
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: var(--Azul-gametiz);
 }
 
 .descreva label {
-    text-align: center;
-    font-family: "Orbitron";
+    text-align: left;
+    font-family: "Arial";
+    text-transform: uppercase;
     display: flex;
-    justify-content: center;
-font-size: var(--Azul-gametiz);
+    justify-content: left;
+   font-size: var(--Azul-gametiz);
 }
 
 button {
+    
     background-color: #192773;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-style: black;
     color: white;
     padding: 10px;
     border-radius: 50px;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
 .formulario {
-    width: 50%;
+    width: 60%;
 
     margin: 0 auto;
     padding: 60px 0;
@@ -263,16 +274,16 @@ button {
 
 .formulario input {
     font-family: "Arial";
-    font-size: 15px;
+    font-size: 20px;
 
     
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: #439BE3;
     column-rule-color: #439BE3;
 
     text-align: center;
     margin: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .formulario label {
@@ -299,16 +310,8 @@ button {
 
 
 
-.app-gametiz {
 
-    display: flex;
-    flex-direction: column;
 
-}
-
-.app-style {
-    display: flex;
-}
 
 .duvidas{
     background-image: url(img/Dojo-2.png);
@@ -419,7 +422,7 @@ button {
 
 
 .contato{
-    background-image: url(img/Group\ 15.png);
+    background-image: url(img/Rectangle\ 19.png);
     height: 60vh;
     margin: 10x 0;
 
@@ -444,3 +447,7 @@ button {
     align-items: left;
     justify-content: left;
 }
+
+@media screen and (max-width: 1300px) {
+            
+ }
